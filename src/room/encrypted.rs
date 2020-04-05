@@ -3,7 +3,7 @@ use std::collections::HashMap;
 
 use js_int::UInt;
 use ruma_identifiers::{DeviceId, EventId, RoomId, UserId};
-use serde::{ Deserialize, Deserializer, Serialize, Serializer};
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
 use serde_json::{from_value, Map, Value};
 
 use crate::{Algorithm, EventType, FromRaw};

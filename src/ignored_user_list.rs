@@ -23,7 +23,6 @@ impl FromRaw for IgnoredUserListEvent {
     }
 }
 
-
 /// The payload for `IgnoredUserListEvent`.
 #[derive(Clone, Debug, PartialEq, Serialize)]
 pub struct IgnoredUserListEventContent {
